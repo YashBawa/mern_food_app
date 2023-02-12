@@ -1,0 +1,21 @@
+Thunder client == postman for testing server agents 
+nodemon = it bascially helps to keep the server active with updated changes in real 
+time scenario.
+
+
+connecting mogodb with our backend 
+that is connection between backend and dataabse 
+
+Mongoose --> Helps in connecting Backend and Database easily 
+
+Command to export data from local system to mongo db database 
+mongoimport --uri mongodb+srv://mern-stack-1:mern-stack-1@cluster0.33ykczq.mongodb.net/
+mern-food-app --collection sample --type JSON --file foodData2.json --jsonArray
+
+
+
+
+
+Mongo db ATLAS 
+It can be schema less --> You can save data in any format no fixed format 
+mongoose help create a format 
