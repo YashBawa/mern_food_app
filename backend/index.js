@@ -4,6 +4,15 @@ const port = 5000
 const mongodb = require ("./db")
 mongodb();
 
+app.use((req,res,next)=>{
+  res.setHeader("Acess-Control-Allow-Origin","https://localhost:3000");
+  res.header(
+    "Acess-Control-Allow-Headers",
+    "Origin,X-Request-With,Content-Type,Accept"
+  );
+  next();
+})
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
